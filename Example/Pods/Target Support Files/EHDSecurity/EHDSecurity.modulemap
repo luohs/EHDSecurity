@@ -1,0 +1,6 @@
+framework module EHDSecurity {
+  umbrella header "EHDSecurity-umbrella.h"
+
+  export *
+  module * { export * }
+}

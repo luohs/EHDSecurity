@@ -1,0 +1,39 @@
+PODS:
+  - EHDComponent (1.0.0):
+    - EHDComponent/Core (= 1.0.0)
+    - EHDComponent/URLRoute (= 1.0.0)
+  - EHDComponent/Core (1.0.0):
+    - EHDComponent/URLRoute
+  - EHDComponent/URLRoute (1.0.0)
+  - EHDSecurity (0.2.0):
+    - EHDSecurity/BlurSnapshot (= 0.2.0)
+    - EHDSecurity/SecurityStrategy (= 0.2.0)
+    - UIImage/Blurry (>= 0.5.3)
+    - UIViewController/Topmost (>= 1.0.0)
+  - EHDSecurity/BlurSnapshot (0.2.0):
+    - UIImage/Blurry (>= 0.5.3)
+    - UIViewController/Topmost (>= 1.0.0)
+  - EHDSecurity/SecurityStrategy (0.2.0):
+    - EHDComponent (>= 0.4.0)
+    - EHDSecurity/BlurSnapshot
+    - UIImage/Blurry (>= 0.5.3)
+    - UIViewController/Topmost (>= 1.0.0)
+  - UIImage/Blurry (0.5.3)
+  - UIViewController/Topmost (1.0.0)
+
+DEPENDENCIES:
+  - EHDSecurity (from `../`)
+
+EXTERNAL SOURCES:
+  EHDSecurity:
+    :path: ../
+
+SPEC CHECKSUMS:
+  EHDComponent: adf5d9bc4f01bcc43a784523be5683ea2621bb59
+  EHDSecurity: 5119f77ae3bb519d0dd4690a36afc432f9a1c479
+  UIImage: 6e84218a931da6608a1a649cb092de3c85fab048
+  UIViewController: f3c56ad4e96027a177c99fa9ea731dcb88c23d49
+
+PODFILE CHECKSUM: b92da13c1b1ef8a9fecba1e4daee107c6cc1a4d5
+
+COCOAPODS: 1.4.0

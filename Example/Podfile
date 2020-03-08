@@ -1,0 +1,17 @@
+#use_frameworks!
+install! 'cocoapods', :deterministic_uuids => false
+
+source 'https://github.com/CocoaPods/Specs.git'
+
+plugin 'cocoapods-repo-svn', :sources => [
+'https://10.7.12.91/repo/EHDiOS/trunk/EHDSpecRepo'
+]
+target 'EHDSecurity_Example' do
+  pod 'EHDSecurity', :path => '../'
+
+  target 'EHDSecurity_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

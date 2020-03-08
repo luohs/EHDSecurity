@@ -1,0 +1,16 @@
+PODS:
+  - EHDSecurity (0.1.0)
+
+DEPENDENCIES:
+  - EHDSecurity (from `../`)
+
+EXTERNAL SOURCES:
+  EHDSecurity:
+    :path: ../
+
+SPEC CHECKSUMS:
+  EHDSecurity: 6fa1d2f7e0cbd5876c0b3efd57569bf5070f3389
+
+PODFILE CHECKSUM: 2293ffe71588d61dd70a4a3092d48e1f4c982153
+
+COCOAPODS: 1.4.0
