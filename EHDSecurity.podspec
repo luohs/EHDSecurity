@@ -26,7 +26,7 @@ TODO: Add long description of the pod here.
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'luohuasheng0225@163.com' => 'luohuasheng0225@gmail.com' }
   # s.source           = { :svn => 'https://10.7.12.91/repo/EHDiOS/trunk/EHDComponentRepo/EHDSecurity', :tag => s.version.to_s }
-  s.source           = { :git => 'http://gitlab.tf56.lo/tfic-frontend-client/ios-components-repo/common/ehdsecurity.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/luohs/EHDSecurity.git', :tag => s.version.to_s }
 
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
